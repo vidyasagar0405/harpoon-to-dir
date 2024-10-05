@@ -6,9 +6,9 @@ Now you can use this funcion to toggle the quick menu
 ```lua
 require('harpoon.dirlist').toggle_quick_list()
 ```
-**For example **
+**For example**
 ```lua
-        vim.keymap.set('n', '<leader>hh', function () require('harpoon.dirlist').toggle_quick_list() end, { desc = "Toggle Harpoon-to-dir menu" })
+vim.keymap.set('n', '<leader>hh', function () require('harpoon.dirlist').toggle_quick_list() end, { desc = "Toggle Harpoon-to-dir menu" })
 ```
 
 **This is my harpoon.lua config file (Lazy)**
